@@ -2,6 +2,7 @@ body {
     font-family: "Open Sans";
     font-size: 16px;
     color: rgba(0, 0, 0, 0.95);
+    background-color: #E5E5E5;
 }
 
 .navbar-expand-lg {
@@ -24,4 +25,127 @@ body {
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 20px;
     padding-left: 20px;
+}
+
+.section-container {
+    height: 290px;
+    background-image: url(/img/Page_title_flat.jpg);
+    margin-bottom: 90px;
+}
+
+.card-body {
+    padding: 40px 40px;
+}
+
+.card-title {
+    font-family: Kanit;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.card-text-wrapper {
+    margin-bottom: 30px;
+}
+
+.card-text-wrapper:last-child {
+    margin-bottom: 10px;
+}
+
+.card-text {
+    margin-bottom: 10px;
+}
+
+.card-text-adress {
+    font-size: 14px;
+    color: rgba(85, 85, 85, 1);
+    margin-bottom: 30px;
+}
+
+.card-link-green {
+    font-size: 14px;
+    background: linear-gradient(180deg, #30828E 0%, #1F9A93 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card-link-wrapper {
+    position: relative;
+    margin-bottom: 45px;
+}
+
+.card-link-wrapper::after {
+    content: "";
+    display: block;
+    position: relative;
+    bottom: -22px;
+    height: 1px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.06);
+}
+
+.card-link-wrapper:last-child::after {
+    content: "";
+    display: none;
+}
+
+.card-link {
+    color: rgba(0, 0, 0, 0.95);
+}
+
+.card-link+.card-link {
+    margin-left: 10px;
+}
+
+.card-link-img {
+    position: absolute;
+    right: 0;
+}
+
+.cards-section {
+    margin-bottom: 90px;
+}
+
+.footer {
+    background: black;
+    color: white;
+    font-size: 14px;
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+
+.footer-title {
+    font-family: Kanit;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.footer-text {
+    text-align: justify;
+}
+
+.footer-logo {
+    margin-bottom: 30px;
+}
+
+.footer-mail {
+    margin-bottom: 40px;
+}
+
+.footer-link-mail {
+    color: white;
+}
+
+.footer-social {
+    margin-bottom: 40px;
+}
+
+.footer-link-social {
+    margin-right: 10px;
+}
+
+.btn {
+    border-radius: 0;
+    margin-right: 10px;
+    font-size: 14px;
+    padding: 10px 15px;
 }
